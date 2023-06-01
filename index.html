@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bing Map Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bing Map Search <span> for Neurals.ai</span></h1>
+  <div id="input">
+    <label for="searchInput">Search:</label>
+    <input type="text" id="searchInput">
+    <button onclick="searchPlace()">Search</button>
+    <br>
+    <p>Ex:Delhi,Mumbai,Chennai,Kolkata,Bangalore..</p>
+  </div>
+  <div id="mapContainer"></div>
+  <div id="placeNameContainer"></div>
+  <footer> Made with ❤️ by <a href="https://saroforyou.000webhostapp.com"> Saravanan</a></footer>
+
+  <script src="https://www.bing.com/api/maps/mapcontrol?callback=initMap" async defer></script>
+  <script src="scriptmap.js"></script>
+</body>
+</html>
